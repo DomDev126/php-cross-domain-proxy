@@ -72,7 +72,9 @@ foreach ($_SERVER as $key => $value) {
         }
     }
 }
+$curl_options = array(
 
+);
 // identify request method, url and params
 $request_method = $_SERVER['REQUEST_METHOD'];
 if ('GET' == $request_method) {
